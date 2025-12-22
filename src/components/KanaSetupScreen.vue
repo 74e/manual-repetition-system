@@ -1,7 +1,7 @@
 <script setup>
 import FeedbackAnimationButton from "@/components/FeedbackAnimationButton.vue";
 import { useFlashcardStore } from "@/stores/flashcard";
-import { watch, ref, computed, onMounted } from "vue";
+import { ref, computed, onMounted } from "vue";
 import ButtonComponent from "./ButtonComponent.vue";
 import ReturnButton from "./ReturnButton.vue";
 import ShortcutGuide from "./ShortcutGuide.vue";
