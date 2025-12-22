@@ -13,10 +13,6 @@ const gridItemSize = ref("100px");
 const selectedKana = ref([]);
 const reverseKanaOption = { hiragana: "katakana", katakana: "hiragana" };
 
-watch(selectedKana.value, () => {
-  addSelectedData(selectedKana.value);
-});
-
 function padKanaGrid(value) {
   switch (value.length) {
     case 3:
@@ -38,6 +34,8 @@ function handleClickIndividualKana(kana) {
   } else {
     selectedKana.value.push(kana);
   }
+
+  addSelectedData(selectedKana.value);
 }
 
 function handleClickKanaGroup(kanaGroupRaw) {
@@ -51,6 +49,8 @@ function handleClickKanaGroup(kanaGroupRaw) {
   } else {
     selectedKana.value.push(...kanaGroup);
   }
+
+  addSelectedData(selectedKana.value);
 }
 
 function handleSelectType(type = "all") {
@@ -69,6 +69,8 @@ function handleSelectType(type = "all") {
   }
 
   selectedKana.value = acc;
+
+  addSelectedData(selectedKana.value);
 }
 
 function handleUnselectAll() {
@@ -101,7 +103,7 @@ function displayGuideLabel(kanaItem) {
 }
 
 onMounted(() => {
-  let hash = window.location.hash?.replace("#", "");
+  let hash = window.location.hash?.split("#")[2];
   if (!["hiragana", "katakana"].includes(hash)) hash = "hiragana";
   flashcardStore.selectedKanaType = hash;
 });
