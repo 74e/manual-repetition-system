@@ -24,7 +24,7 @@
 :root {
   --color-background: #181a1b;
   --color-background-darker: hsl(150, 12%, 7%);
-  --vue-green: hsl(167, 31%, 45%);
+  --vue-green: rgb(79, 150, 135);
   --vue-green-40: rgba(80, 151, 136, 0.05);
   --vue-green-45: rgba(80, 151, 136, 0.15);
   --vue-green-50: rgba(80, 151, 136, 0.25);

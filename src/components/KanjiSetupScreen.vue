@@ -1,7 +1,7 @@
 <script setup>
 import FlashcardListPreview from "./FlashcardListPreview.vue";
 import { useFlashcardStore } from "@/stores/flashcard";
-import { computed, ref } from "vue";
+import { computed, onMounted, ref } from "vue";
 import ButtonComponent from "./ButtonComponent.vue";
 import ReturnButton from "./ReturnButton.vue";
 import ShortcutGuide from "./ShortcutGuide.vue";
@@ -48,6 +48,10 @@ function setReviewType(type) {
 function formatTitle(value, index) {
   return value.substring(0, index) + " " + value.substring(index);
 }
+
+onMounted(() => {
+  flashcardStore.resetState();
+});
 </script>
 
 <template>
