@@ -45,13 +45,13 @@ function handleSubmitAnswer() {
 
 const displayReviewKana = computed(() => props.currentFlashcard[flashcardStore.selectedKanaType]);
 
-// const displayReviewAnswer = computed(() => {
-//   if (flashcardStore.recognitionType == "romaji") {
-//     return props.currentFlashcard.romaji;
-//   } else {
-//     return props.currentFlashcard[{ hiragana: "katakana", katakana: "hiragana" }[flashcardStore.selectedKanaType]];
-//   }
-// });
+const displayReviewAnswer = computed(() => {
+  if (flashcardStore.recognitionType == "romaji") {
+    return props.currentFlashcard.romaji;
+  } else {
+    return props.currentFlashcard[{ hiragana: "katakana", katakana: "hiragana" }[flashcardStore.selectedKanaType]];
+  }
+});
 
 const displayTitle = computed(() => {
   if (flashcardStore.reviewType == "recall") {
@@ -67,11 +67,18 @@ onMounted(() => {
 </script>
 
 <template>
-  <template v-if="flashcardStore.reviewMethod == 'flashcard'" v-for="value in [!cardFlipped, cardFlipped]">
-    <div v-if="value" :class="['flashcard-side', value && 'answer-side']">
+  <template v-if="flashcardStore.reviewMethod == 'flashcard'">
+    <div v-if="!cardFlipped" class="flashcard-side">
       <div :class="['frame-container', uiFeedback]">
         <div class="label">{{ displayTitle }}</div>
         <div class="character">{{ displayReviewKana }}</div>
+      </div>
+    </div>
+
+    <div v-else class="flashcard-side answer-side">
+      <div :class="['frame-container', uiFeedback]">
+        <div class="label">{{ displayTitle }}</div>
+        <div class="character">{{ displayReviewAnswer }}</div>
       </div>
     </div>
   </template>
