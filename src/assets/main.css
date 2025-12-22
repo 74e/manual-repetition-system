@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* @font-face {
+  font-family: "HGRKK";
+  src: url("@/assets/HGKyokashotai-01.ttf") format("truetype");
+}
+*/
+@font-face {
+  font-family: "HGRKK";
+  src: url("@/assets/HGPKyokashotai-02.ttf") format("truetype");
+}
+/*
+@font-face {
+  font-family: "HGRKK";
+  src: url("@/assets/HGSKyokashotai-03.ttf") format("truetype");
+} */
+
+@font-face {
+  font-family: "KanjiStrokeOrders";
+  src: url("@/assets/KanjiStrokeOrders.ttf") format("truetype");
+}
+
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+  --color-background: #181a1b;
+  --color-background-darker: hsl(150, 12%, 7%);
+  --vue-green: hsl(167, 31%, 45%);
+  --vue-green-40: rgba(80, 151, 136, 0.05);
+  --vue-green-45: rgba(80, 151, 136, 0.15);
+  --vue-green-50: rgba(80, 151, 136, 0.25);
+  --vue-green-75: rgba(80, 151, 136, 0.5);
+  --vue-red: rgb(165, 64, 64);
+  --vue-red-40: rgba(151, 80, 80, 0.15);
+  --vue-red-50: rgba(151, 80, 80, 0.25);
+  --vue-red-75: rgba(151, 80, 80, 0.5);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer and Edge */
+}
+
+*::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+body {
+  min-height: 100vh;
+  color: var(--vue-green);
+  background: var(--color-background);
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-family: "Archivo", sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}

@@ -1,0 +1,487 @@
+{
+  "kana": [
+    {
+      "vowels": [
+        { "hiragana": "あ", "katakana": "ア", "romaji": "a" },
+        { "hiragana": "い", "katakana": "イ", "romaji": "i" },
+        { "hiragana": "う", "katakana": "ウ", "romaji": "u" },
+        { "hiragana": "え", "katakana": "エ", "romaji": "e" },
+        { "hiragana": "お", "katakana": "オ", "romaji": "o" }
+      ]
+    },
+    {
+      "k": [
+        { "hiragana": "か", "katakana": "カ", "romaji": "ka" },
+        { "hiragana": "き", "katakana": "キ", "romaji": "ki" },
+        { "hiragana": "く", "katakana": "ク", "romaji": "ku" },
+        { "hiragana": "け", "katakana": "ケ", "romaji": "ke" },
+        { "hiragana": "こ", "katakana": "コ", "romaji": "ko" }
+      ]
+    },
+    {
+      "s": [
+        { "hiragana": "さ", "katakana": "サ", "romaji": "sa" },
+        { "hiragana": "し", "katakana": "シ", "romaji": "shi" },
+        { "hiragana": "す", "katakana": "ス", "romaji": "su" },
+        { "hiragana": "せ", "katakana": "セ", "romaji": "se" },
+        { "hiragana": "そ", "katakana": "ソ", "romaji": "so" }
+      ]
+    },
+    {
+      "t": [
+        { "hiragana": "た", "katakana": "タ", "romaji": "ta" },
+        { "hiragana": "ち", "katakana": "チ", "romaji": "chi" },
+        { "hiragana": "つ", "katakana": "ツ", "romaji": "tsu" },
+        { "hiragana": "て", "katakana": "テ", "romaji": "te" },
+        { "hiragana": "と", "katakana": "ト", "romaji": "to" }
+      ]
+    },
+    {
+      "n": [
+        { "hiragana": "な", "katakana": "ナ", "romaji": "na" },
+        { "hiragana": "に", "katakana": "ニ", "romaji": "ni" },
+        { "hiragana": "ぬ", "katakana": "ヌ", "romaji": "nu" },
+        { "hiragana": "ね", "katakana": "ネ", "romaji": "ne" },
+        { "hiragana": "の", "katakana": "ノ", "romaji": "no" }
+      ]
+    },
+    {
+      "h": [
+        { "hiragana": "は", "katakana": "ハ", "romaji": "ha" },
+        { "hiragana": "ひ", "katakana": "ヒ", "romaji": "hi" },
+        { "hiragana": "ふ", "katakana": "フ", "romaji": "fu" },
+        { "hiragana": "へ", "katakana": "ヘ", "romaji": "he" },
+        { "hiragana": "ほ", "katakana": "ホ", "romaji": "ho" }
+      ]
+    },
+    {
+      "m": [
+        { "hiragana": "ま", "katakana": "マ", "romaji": "ma" },
+        { "hiragana": "み", "katakana": "ミ", "romaji": "mi" },
+        { "hiragana": "む", "katakana": "ム", "romaji": "mu" },
+        { "hiragana": "め", "katakana": "メ", "romaji": "me" },
+        { "hiragana": "も", "katakana": "モ", "romaji": "mo" }
+      ]
+    },
+    {
+      "y": [
+        { "hiragana": "や", "katakana": "ヤ", "romaji": "ya" },
+        { "hiragana": "ゆ", "katakana": "ユ", "romaji": "yu" },
+        { "hiragana": "よ", "katakana": "ヨ", "romaji": "yo" }
+      ]
+    },
+    {
+      "r": [
+        { "hiragana": "ら", "katakana": "ラ", "romaji": "ra" },
+        { "hiragana": "り", "katakana": "リ", "romaji": "ri" },
+        { "hiragana": "る", "katakana": "ル", "romaji": "ru" },
+        { "hiragana": "れ", "katakana": "レ", "romaji": "re" },
+        { "hiragana": "ろ", "katakana": "ロ", "romaji": "ro" }
+      ]
+    },
+    {
+      "w": [
+        { "hiragana": "わ", "katakana": "ワ", "romaji": "wa" },
+        { "hiragana": "を", "katakana": "ヲ", "romaji": "wo" }
+      ]
+    },
+    {
+      "g": [
+        { "hiragana": "が", "katakana": "ガ", "romaji": "ga" },
+        { "hiragana": "ぎ", "katakana": "ギ", "romaji": "gi" },
+        { "hiragana": "ぐ", "katakana": "グ", "romaji": "gu" },
+        { "hiragana": "げ", "katakana": "ゲ", "romaji": "ge" },
+        { "hiragana": "ご", "katakana": "ゴ", "romaji": "go" }
+      ]
+    },
+    {
+      "z": [
+        { "hiragana": "ざ", "katakana": "ザ", "romaji": "za" },
+        { "hiragana": "じ", "katakana": "ジ", "romaji": "ji" },
+        { "hiragana": "ず", "katakana": "ズ", "romaji": "zu" },
+        { "hiragana": "ぜ", "katakana": "ゼ", "romaji": "ze" },
+        { "hiragana": "ぞ", "katakana": "ゾ", "romaji": "zo" }
+      ]
+    },
+    {
+      "d": [
+        { "hiragana": "だ", "katakana": "ダ", "romaji": "da" },
+        { "hiragana": "ぢ", "katakana": "ヂ", "romaji": "ji" },
+        { "hiragana": "づ", "katakana": "ヅ", "romaji": "zu" },
+        { "hiragana": "で", "katakana": "デ", "romaji": "de" },
+        { "hiragana": "ど", "katakana": "ド", "romaji": "do" }
+      ]
+    },
+    {
+      "b": [
+        { "hiragana": "ば", "katakana": "バ", "romaji": "ba" },
+        { "hiragana": "び", "katakana": "ビ", "romaji": "bi" },
+        { "hiragana": "ぶ", "katakana": "ブ", "romaji": "bu" },
+        { "hiragana": "べ", "katakana": "ベ", "romaji": "be" },
+        { "hiragana": "ぼ", "katakana": "ボ", "romaji": "bo" }
+      ]
+    },
+    {
+      "p": [
+        { "hiragana": "ぱ", "katakana": "パ", "romaji": "pa" },
+        { "hiragana": "ぴ", "katakana": "ピ", "romaji": "pi" },
+        { "hiragana": "ぷ", "katakana": "プ", "romaji": "pu" },
+        { "hiragana": "ぺ", "katakana": "ペ", "romaji": "pe" },
+        { "hiragana": "ぽ", "katakana": "ポ", "romaji": "po" }
+      ]
+    },
+    { "n_final": [{ "hiragana": "ん", "katakana": "ン", "romaji": "n" }] },
+    {
+      "ky": [
+        { "hiragana": "きゃ", "katakana": "キャ", "romaji": "kya" },
+        { "hiragana": "きゅ", "katakana": "キュ", "romaji": "kyu" },
+        { "hiragana": "きょ", "katakana": "キョ", "romaji": "kyo" }
+      ]
+    },
+    {
+      "sy": [
+        { "hiragana": "しゃ", "katakana": "シャ", "romaji": "sha" },
+        { "hiragana": "しゅ", "katakana": "シュ", "romaji": "shu" },
+        { "hiragana": "しょ", "katakana": "ショ", "romaji": "sho" }
+      ]
+    },
+    {
+      "ty": [
+        { "hiragana": "ちゃ", "katakana": "チャ", "romaji": "cha" },
+        { "hiragana": "ちゅ", "katakana": "チュ", "romaji": "chu" },
+        { "hiragana": "ちょ", "katakana": "チョ", "romaji": "cho" }
+      ]
+    },
+    {
+      "ny": [
+        { "hiragana": "にゃ", "katakana": "ニャ", "romaji": "nya" },
+        { "hiragana": "にゅ", "katakana": "ニュ", "romaji": "nyu" },
+        { "hiragana": "にょ", "katakana": "ニョ", "romaji": "nyo" }
+      ]
+    },
+    {
+      "hy": [
+        { "hiragana": "ひゃ", "katakana": "ヒャ", "romaji": "hya" },
+        { "hiragana": "ひゅ", "katakana": "ヒュ", "romaji": "hyu" },
+        { "hiragana": "ひょ", "katakana": "ヒョ", "romaji": "hyo" }
+      ]
+    },
+    {
+      "my": [
+        { "hiragana": "みゃ", "katakana": "ミャ", "romaji": "mya" },
+        { "hiragana": "みゅ", "katakana": "ミュ", "romaji": "myu" },
+        { "hiragana": "みょ", "katakana": "ミョ", "romaji": "myo" }
+      ]
+    },
+    {
+      "ry": [
+        { "hiragana": "りゃ", "katakana": "リャ", "romaji": "rya" },
+        { "hiragana": "りゅ", "katakana": "リュ", "romaji": "ryu" },
+        { "hiragana": "りょ", "katakana": "リョ", "romaji": "ryo" }
+      ]
+    },
+    {
+      "gy": [
+        { "hiragana": "ぎゃ", "katakana": "ギャ", "romaji": "gya" },
+        { "hiragana": "ぎゅ", "katakana": "ギュ", "romaji": "gyu" },
+        { "hiragana": "ぎょ", "katakana": "ギョ", "romaji": "gyo" }
+      ]
+    },
+    {
+      "zy": [
+        { "hiragana": "じゃ", "katakana": "ジャ", "romaji": "ja" },
+        { "hiragana": "じゅ", "katakana": "ジュ", "romaji": "ju" },
+        { "hiragana": "じょ", "katakana": "ジョ", "romaji": "jo" }
+      ]
+    },
+    {
+      "by": [
+        { "hiragana": "びゃ", "katakana": "ビャ", "romaji": "bya" },
+        { "hiragana": "びゅ", "katakana": "ビュ", "romaji": "byu" },
+        { "hiragana": "びょ", "katakana": "ビョ", "romaji": "byo" }
+      ]
+    },
+    {
+      "py": [
+        { "hiragana": "ぴゃ", "katakana": "ピャ", "romaji": "pya" },
+        { "hiragana": "ぴゅ", "katakana": "ピュ", "romaji": "pyu" },
+        { "hiragana": "ぴょ", "katakana": "ピョ", "romaji": "pyo" }
+      ]
+    }
+  ],
+  "kanji": {
+    "kll1": [
+      { "kanji": "一", "reading": { "onyomi": "イチ、イツ", "kunyomi": "ひと-、ひと.つ" }, "keyword": "one", "meaning": "one" },
+      { "kanji": "二", "reading": { "onyomi": "ニ、ジ", "kunyomi": "ふた、ふた.つ、ふたたび" }, "keyword": "two", "meaning": "two" },
+      { "kanji": "三", "reading": { "onyomi": "サン、ゾウ", "kunyomi": "み、み.つ、みっ.つ" }, "keyword": "three", "meaning": "three" },
+      { "kanji": "四", "reading": { "onyomi": "シ", "kunyomi": "よ、よ.つ、よっ.つ、よん" }, "keyword": "four", "meaning": "four" },
+      { "kanji": "五", "reading": { "onyomi": "ゴ", "kunyomi": "いつ、いつ.つ" }, "keyword": "five", "meaning": "five" },
+      { "kanji": "六", "reading": { "onyomi": "ロク、リク", "kunyomi": "む、む.つ、むっ.つ、むい" }, "keyword": "six", "meaning": "six" },
+      { "kanji": "七", "reading": { "onyomi": "シチ", "kunyomi": "なな、なな.つ、なの" }, "keyword": "seven", "meaning": "seven" },
+      { "kanji": "八", "reading": { "onyomi": "ハチ", "kunyomi": "や、や.つ、やっ.つ、よう" }, "keyword": "eight", "meaning": "eight" },
+      { "kanji": "九", "reading": { "onyomi": "キュウ、ク", "kunyomi": "ここの、ここの.つ" }, "keyword": "nine", "meaning": "nine" },
+      { "kanji": "十", "reading": { "onyomi": "ジュウ、ジッ、ジュッ", "kunyomi": "とお、と" }, "keyword": "ten", "meaning": "ten" },
+      { "kanji": "百", "reading": { "onyomi": "ヒャク、ビャク", "kunyomi": "もも" }, "keyword": "hundred", "meaning": "hundred" },
+      { "kanji": "千", "reading": { "onyomi": "セン", "kunyomi": "ち" }, "keyword": "thousand", "meaning": "thousand" },
+      { "kanji": "万", "reading": { "onyomi": "マン、バン", "kunyomi": "よろず" }, "keyword": "ten thousand", "meaning": "ten thousand" },
+      { "kanji": "円", "reading": { "onyomi": "エン", "kunyomi": "まる.い、まる、まど、まど.か、まろ.やか" }, "keyword": "circle", "meaning": "circle, yen, round" },
+      { "kanji": "口", "reading": { "onyomi": "コウ、ク", "kunyomi": "くち" }, "keyword": "mouth", "meaning": "mouth" },
+      { "kanji": "目", "reading": { "onyomi": "モク、ボク", "kunyomi": "め、-め、ま-" }, "keyword": "eye", "meaning": "eye, class, look, insight, experience, care, favor" }
+    ],
+    "kll2": [
+      { "kanji": "日", "reading": { "onyomi": "ニチ、ジツ", "kunyomi": "ひ、-び、-か" }, "keyword": "day", "meaning": "day, sun, Japan" },
+      { "kanji": "月", "reading": { "onyomi": "ゲツ、ガツ", "kunyomi": "つき" }, "keyword": "month", "meaning": "month, moon" },
+      { "kanji": "火", "reading": { "onyomi": "カ", "kunyomi": "ひ、-び、ほ-" }, "keyword": "fire", "meaning": "fire" },
+      { "kanji": "水", "reading": { "onyomi": "スイ", "kunyomi": "みず、みず-" }, "keyword": "water", "meaning": "water" },
+      { "kanji": "木", "reading": { "onyomi": "ボク、モク", "kunyomi": "き、こ-" }, "keyword": "tree", "meaning": "tree, wood" },
+      { "kanji": "金", "reading": { "onyomi": "キン、コン、ゴン", "kunyomi": "かね、かな-、-がね" }, "keyword": "gold", "meaning": "gold" },
+      { "kanji": "土", "reading": { "onyomi": "ド、ト", "kunyomi": "つち" }, "keyword": "soil", "meaning": "soil, earth, ground, Turkey" },
+      { "kanji": "曜", "reading": { "onyomi": "ヨウ", "kunyomi": "" }, "keyword": "weekday", "meaning": "weekday" },
+      { "kanji": "本", "reading": { "onyomi": "ホン", "kunyomi": "もと" }, "keyword": "book", "meaning": "book, present, main, true, real, no. of long things" },
+      { "kanji": "人", "reading": { "onyomi": "ジン、ニン", "kunyomi": "ひと、-り、-と" }, "keyword": "person", "meaning": "person" },
+      { "kanji": "今", "reading": { "onyomi": "コン、キン", "kunyomi": "いま" }, "keyword": "now", "meaning": "now" },
+      { "kanji": "寺", "reading": { "onyomi": "ジ", "kunyomi": "てら" }, "keyword": "Buddhist temple", "meaning": "Buddhist temple" },
+      { "kanji": "時", "reading": { "onyomi": "ジ", "kunyomi": "とき、-どき" }, "keyword": "time", "meaning": "time, hour" },
+      { "kanji": "半", "reading": { "onyomi": "ハン", "kunyomi": "なか.ば" }, "keyword": "half", "meaning": "half, middle, odd number, semi-, part-" },
+      { "kanji": "刀", "reading": { "onyomi": "トウ", "kunyomi": "かたな、そり" }, "keyword": "sword", "meaning": "sword, saber, knife" },
+      { "kanji": "分", "reading": { "onyomi": "ブン、フン、ブ", "kunyomi": "わ.ける、わ.け、わ.かれる、わ.かる、わ.かつ" }, "keyword": "part", "meaning": "part, minute of time, segment, share, degree, one's lot, duty, understand, know, rate, 1%, chances, shaku/10" }
+    ],
+    "kll3": [
+      { "kanji": "上", "reading": { "onyomi": "ジョウ、ショウ、シャン", "kunyomi": "うえ、-うえ、うわ-、かみ、あ.げる、-あ.げる、あ.がる、-あ.がる、あ.がり、-あ.がり、のぼ.る、のぼ.り、のぼ.せる、のぼ.す、よ.す" }, "keyword": "above", "meaning": "above, up" },
+      { "kanji": "下", "reading": { "onyomi": "カ、ゲ", "kunyomi": "した、しも、もと、さ.げる、さ.がる、くだ.る、くだ.り、くだ.す、-くだ.す、くだ.さる、お.ろす、お.りる" }, "keyword": "below", "meaning": "below, down, descend, give, low, inferior" },
+      { "kanji": "中", "reading": { "onyomi": "チュウ", "kunyomi": "なか、うち、あた.る" }, "keyword": "in", "meaning": "in, inside, middle, mean, center" },
+      { "kanji": "外", "reading": { "onyomi": "ガイ、ゲ", "kunyomi": "そと、ほか、はず.す、はず.れる、と-" }, "keyword": "outside", "meaning": "outside" },
+      { "kanji": "右", "reading": { "onyomi": "ウ、ユウ", "kunyomi": "みぎ" }, "keyword": "right", "meaning": "right" },
+      { "kanji": "工", "reading": { "onyomi": "コウ、ク、グ", "kunyomi": "" }, "keyword": "craft", "meaning": "craft, construction" },
+      { "kanji": "左", "reading": { "onyomi": "サ、シャ", "kunyomi": "ひだり" }, "keyword": "left", "meaning": "left" },
+      { "kanji": "前", "reading": { "onyomi": "ゼン", "kunyomi": "まえ、-まえ" }, "keyword": "in front", "meaning": "in front, before" },
+      { "kanji": "後", "reading": { "onyomi": "ゴ、コウ", "kunyomi": "のち、うし.ろ、うしろ、あと、おく.れる" }, "keyword": "behind", "meaning": "behind, back, later" },
+      { "kanji": "午", "reading": { "onyomi": "ゴ", "kunyomi": "うま" }, "keyword": "noon", "meaning": "noon" },
+      { "kanji": "門", "reading": { "onyomi": "モン", "kunyomi": "かど、と" }, "keyword": "gates", "meaning": "gates" },
+      { "kanji": "間", "reading": { "onyomi": "カン、ケン", "kunyomi": "あいだ、ま、あい" }, "keyword": "interval", "meaning": "interval, space" },
+      { "kanji": "東", "reading": { "onyomi": "トウ", "kunyomi": "ひがし" }, "keyword": "east", "meaning": "east" },
+      { "kanji": "西", "reading": { "onyomi": "セイ、サイ、ス", "kunyomi": "にし" }, "keyword": "west", "meaning": "west, Spain" },
+      { "kanji": "南", "reading": { "onyomi": "ナン、ナ", "kunyomi": "みなみ" }, "keyword": "south", "meaning": "south" },
+      { "kanji": "北", "reading": { "onyomi": "ホク", "kunyomi": "きた" }, "keyword": "north", "meaning": "north" }
+    ],
+    "kll4": [
+      { "kanji": "田", "reading": { "onyomi": "デン", "kunyomi": "た" }, "keyword": "rice field", "meaning": "rice field, rice paddy" },
+      { "kanji": "力", "reading": { "onyomi": "リョク、リキ、リイ", "kunyomi": "ちから" }, "keyword": "power", "meaning": "power, strong, strain, bear up, exert" },
+      { "kanji": "男", "reading": { "onyomi": "ダン、ナン", "kunyomi": "おとこ、お" }, "keyword": "male", "meaning": "male" },
+      { "kanji": "女", "reading": { "onyomi": "ジョ、ニョ、ニョウ", "kunyomi": "おんな、め" }, "keyword": "woman", "meaning": "woman, female" },
+      { "kanji": "子", "reading": { "onyomi": "シ、ス、ツ", "kunyomi": "こ、-こ、ね" }, "keyword": "child", "meaning": "child" },
+      { "kanji": "学", "reading": { "onyomi": "ガク", "kunyomi": "まな.ぶ" }, "keyword": "study", "meaning": "study, learning, science" },
+      { "kanji": "生", "reading": { "onyomi": "セイ、ショウ", "kunyomi": "い.きる、い.かす、い.ける、う.まれる、うま.れる、う.まれ、うまれ、う.む、お.う、は.える、は.やす、き、なま、なま-、な.る、な.す、む.す、-う" }, "keyword": "life", "meaning": "life, genuine, birth" },
+      { "kanji": "先", "reading": { "onyomi": "セン", "kunyomi": "さき、ま.ず" }, "keyword": "before", "meaning": "before, ahead, previous, future, precedence" },
+      { "kanji": "何", "reading": { "onyomi": "カ", "kunyomi": "なに、なん、なに-、なん-" }, "keyword": "what", "meaning": "what" },
+      { "kanji": "父", "reading": { "onyomi": "フ", "kunyomi": "ちち" }, "keyword": "father", "meaning": "father" },
+      { "kanji": "母", "reading": { "onyomi": "ボ", "kunyomi": "はは、も" }, "keyword": "mama", "meaning": "mama, mother" },
+      { "kanji": "年", "reading": { "onyomi": "ネン", "kunyomi": "とし" }, "keyword": "year", "meaning": "year" },
+      { "kanji": "去", "reading": { "onyomi": "キョ、コ", "kunyomi": "さ.る、-さ.る" }, "keyword": "gone", "meaning": "gone, past, quit, leave, elapse, eliminate, divorce" },
+      { "kanji": "毎", "reading": { "onyomi": "マイ", "kunyomi": "ごと、-ごと.に" }, "keyword": "every", "meaning": "every" },
+      { "kanji": "王", "reading": { "onyomi": "オウ、-ノウ", "kunyomi": "" }, "keyword": "king", "meaning": "king, rule, magnate" },
+      { "kanji": "国", "reading": { "onyomi": "コク", "kunyomi": "くに" }, "keyword": "country", "meaning": "country" }
+    ],
+    "kll5": [
+      { "kanji": "見", "reading": { "onyomi": "ケン", "kunyomi": "み.る、み.える、み.せる" }, "keyword": "see", "meaning": "see, hopes, chances, idea, opinion, look at, visible" },
+      { "kanji": "行", "reading": { "onyomi": "コウ、ギョウ、アン", "kunyomi": "い.く、ゆ.く、-ゆ.き、-ゆき、-い.き、-いき、おこな.う、おこ.なう" }, "keyword": "going", "meaning": "going, journey" },
+      { "kanji": "米", "reading": { "onyomi": "ベイ、マイ、メエトル", "kunyomi": "こめ、よね" }, "keyword": "rice", "meaning": "rice, usa, meter" },
+      { "kanji": "来", "reading": { "onyomi": "ライ、タイ", "kunyomi": "く.る、きた.る、きた.す、き.たす、き.たる、き、こ" }, "keyword": "come", "meaning": "come, due, next, cause, become" },
+      { "kanji": "良", "reading": { "onyomi": "リョウ", "kunyomi": "よ.い、-よ.い、い.い、-い.い" }, "keyword": "good", "meaning": "good (いい), pleasing, skilled" },
+      { "kanji": "食", "reading": { "onyomi": "ショク、ジキ", "kunyomi": "く.う、く.らう、た.べる、は.む" }, "keyword": "eat", "meaning": "eat, food" },
+      { "kanji": "飲", "reading": { "onyomi": "イン、オン", "kunyomi": "の.む、-の.み" }, "keyword": "drink", "meaning": "drink, smoke, take" },
+      { "kanji": "会", "reading": { "onyomi": "カイ、エ", "kunyomi": "あ.う、あ.わせる、あつ.まる" }, "keyword": "meeting", "meaning": "meeting, meet, party, association, interview, join" },
+      { "kanji": "耳", "reading": { "onyomi": "ジ", "kunyomi": "みみ" }, "keyword": "ear", "meaning": "ear" },
+      { "kanji": "聞", "reading": { "onyomi": "ブン、モン", "kunyomi": "き.く、き.こえる" }, "keyword": "hear", "meaning": "hear, ask, listen" },
+      { "kanji": "言", "reading": { "onyomi": "ゲン、ゴン", "kunyomi": "い.う、こと" }, "keyword": "say", "meaning": "say" },
+      { "kanji": "話", "reading": { "onyomi": "ワ", "kunyomi": "はな.す、はなし" }, "keyword": "tale", "meaning": "tale, talk" },
+      { "kanji": "立", "reading": { "onyomi": "リツ、リュウ、リットル", "kunyomi": "た.つ、-た.つ、た.ち-、た.てる、-た.てる、た.て-、たて-、-た.て、-だ.て、-だ.てる" }, "keyword": "stand up", "meaning": "stand up" },
+      { "kanji": "待", "reading": { "onyomi": "タイ", "kunyomi": "ま.つ、-ま.ち" }, "keyword": "wait", "meaning": "wait, depend on" },
+      { "kanji": "周", "reading": { "onyomi": "シュウ", "kunyomi": "まわ.り" }, "keyword": "circumference", "meaning": "circumference, circuit, lap" },
+      { "kanji": "週", "reading": { "onyomi": "シュウ", "kunyomi": "" }, "keyword": "week", "meaning": "week" }
+    ]
+  },
+  "vocabulary": {
+    "unorganized": [
+      { "word": "大好きな", "kana": "だいすきな", "meaning": "Very favorite" },
+      { "word": "小さい", "kana": "ちいさい", "meaning": "Small" },
+      { "word": "小学生", "kana": "しょうがくせい", "meaning": "Elementary school student" },
+      { "word": "高い", "kana": "たかい", "meaning": "High, expensive" },
+      { "word": "安い", "kana": "やすい", "meaning": "Cheap" },
+      { "word": "新しい", "kana": "あたらしい", "meaning": "New" },
+      { "word": "新聞", "kana": "しんぶん", "meaning": "Newspaper" },
+      { "word": "古い", "kana": "ふるい", "meaning": "Old" },
+      { "word": "元気な", "kana": "げんきな", "meaning": "Fine, energetic" },
+      { "word": "気をつける", "kana": "きをつける", "meaning": "To be careful" },
+      { "word": "多い", "kana": "おおい", "meaning": "Many" },
+      { "word": "少し", "kana": "すこし", "meaning": "A little" },
+      { "word": "少ない", "kana": "すくない", "meaning": "Few" },
+      { "word": "広い", "kana": "ひろい", "meaning": "Wide, spacious" },
+      { "word": "早い", "kana": "はやい", "meaning": "Early (i-Adjective)" },
+      { "word": "早く", "kana": "はやく", "meaning": "Early (Adverb)" },
+      { "word": "長い", "kana": "ながい", "meaning": "Long" },
+      { "word": "明るい", "kana": "あかるい", "meaning": "Bright" },
+      { "word": "明日", "kana": "あす、あした、みょうにち", "meaning": "Tomorrow" },
+      { "word": "好きな", "kana": "すきな", "meaning": "Favorite" },
+      { "word": "友だち", "kana": "ともだち", "meaning": "Friend" },
+      { "word": "入る", "kana": "はいる", "meaning": "To enter" },
+      { "word": "入れる", "kana": "いれる", "meaning": "To put something in" },
+      { "word": "入口/入り口", "kana": "いりぐち", "meaning": "Entrance" },
+      { "word": "入学する", "kana": "にゅうがくする", "meaning": "To enter a school" },
+      { "word": "出る", "kana": "でる", "meaning": "To exit" },
+      { "word": "出かける", "kana": "でかける", "meaning": "To go out" },
+      { "word": "出す", "kana": "だす", "meaning": "To take something out" },
+      { "word": "出口", "kana": "でぐち", "meaning": "Exit" },
+      { "word": "つくば市", "kana": "つくばし", "meaning": "Tsukuba City" },
+      { "word": "市長", "kana": "しちょう", "meaning": "Mayor" },
+      { "word": "町", "kana": "まち", "meaning": "Town" },
+      { "word": "村", "kana": "むら", "meaning": "Village" },
+      { "word": "雨", "kana": "あめ", "meaning": "Rain" },
+      { "word": "電気", "kana": "でんき", "meaning": "Electricity" },
+      { "word": "電車", "kana": "でんしゃ", "meaning": "Train" },
+      { "word": "電話", "kana": "でんわ", "meaning": "Telephone" },
+      { "word": "車", "kana": "くるま", "meaning": "Car" },
+      { "word": "馬", "kana": "うま", "meaning": "Horse" },
+      { "word": "駅", "kana": "えき", "meaning": "Station" },
+      { "word": "会社", "kana": "かいしゃ", "meaning": "Company" },
+      { "word": "社会", "kana": "しゃかい", "meaning": "Society" },
+      { "word": "社長", "kana": "しゃちょう", "meaning": "Company President" },
+      { "word": "学校", "kana": "がっこう", "meaning": "School" },
+      { "word": "高校", "kana": "こうこう", "meaning": "High School" },
+      { "word": "中学校", "kana": "ちゅうがっこう", "meaning": "Junior High School" },
+      { "word": "小学校", "kana": "しょうがっこう", "meaning": "Elementary School" },
+      { "word": "校長", "kana": "こうちょう", "meaning": "Principal" },
+      { "word": "店", "kana": "みせ", "meaning": "Shop" },
+      { "word": "銀行", "kana": "ぎんこう", "meaning": "Bank" },
+      { "word": "病気", "kana": "びょうき", "meaning": "Illness" },
+      { "word": "病院", "kana": "びょういん", "meaning": "Hospital" },
+      { "word": "入院する", "kana": "にゅういんする", "meaning": "To be hospitalized" },
+      { "word": "大学院", "kana": "だいがくいん", "meaning": "Graduate School" },
+      { "word": "大学院生", "kana": "だいがくいんせい", "meaning": "Graduate Student" },
+      { "word": "休む", "kana": "やすむ", "meaning": "To rest, to be absent" },
+      { "word": "休み", "kana": "やすみ", "meaning": "Holiday, absence" },
+      { "word": "走る", "kana": "はしる", "meaning": "To run" },
+      { "word": "起きる", "kana": "おきる", "meaning": "To get up" },
+      { "word": "起こす", "kana": "おこす", "meaning": "To wake someone up" },
+      { "word": "貝", "kana": "かい", "meaning": "Shellfish" },
+      { "word": "買う", "kana": "かう", "meaning": "To buy" },
+      { "word": "売る", "kana": "うる", "meaning": "To sell" },
+      { "word": "読む", "kana": "よむ", "meaning": "To read" },
+      { "word": "書く", "kana": "かく", "meaning": "To write" },
+      { "word": "帰る", "kana": "かえる", "meaning": "To return" },
+      { "word": "勉強する", "kana": "べんきょうする", "meaning": "To study" },
+      { "word": "虫", "kana": "むし", "meaning": "Insect" },
+      { "word": "強い", "kana": "つよい", "meaning": "Strong" },
+      { "word": "持つ", "kana": "もつ", "meaning": "To hold" },
+      { "word": "お金持ち", "kana": "おかねもち", "meaning": "Rich Person" },
+      { "word": "気持ち", "kana": "きもち", "meaning": "Feeling" },
+      { "word": "名前", "kana": "なまえ", "meaning": "Name" },
+      { "word": "日本語", "kana": "にほんご", "meaning": "Japanese Language" },
+      { "word": "中国語", "kana": "ちゅうごくご", "meaning": "Chinese Language" },
+      { "word": "春", "kana": "はる", "meaning": "Spring" },
+      { "word": "春休み", "kana": "はるやすみ", "meaning": "Spring vacation" },
+      { "word": "夏", "kana": "なつ", "meaning": "Summer" },
+      { "word": "夏休み", "kana": "なつやすみ", "meaning": "Summer vacation" },
+      { "word": "秋", "kana": "あき", "meaning": "Autumn, Fall" },
+      { "word": "冬", "kana": "ふゆ", "meaning": "Winter" },
+      { "word": "冬休み", "kana": "ふゆやすみ", "meaning": "Winter vacation" },
+      { "word": "朝", "kana": "あさ", "meaning": "Morning" },
+      { "word": "毎朝", "kana": "まいあさ", "meaning": "Every morning" },
+      { "word": "今朝", "kana": "けさ", "meaning": "This morning" },
+      { "word": "昼", "kana": "ひる", "meaning": "Noon, daytime" },
+      { "word": "昼間", "kana": "ひるま", "meaning": "Daytime" },
+      { "word": "昼休み", "kana": "ひるやすみ", "meaning": "Lunch break" },
+      { "word": "夕方", "kana": "ゆうがた", "meaning": "Early evening" },
+      { "word": "読み方", "kana": "よみかた", "meaning": "Way of reading" },
+      { "word": "晩", "kana": "ばん", "meaning": "Evening, night" },
+      { "word": "今晩", "kana": "こんばん", "meaning": "Tonight" },
+      { "word": "毎晩", "kana": "まいばん", "meaning": "Every night" },
+      { "word": "夜", "kana": "よる", "meaning": "Night" },
+      { "word": "今夜", "kana": "こんや", "meaning": "Tonight" },
+      { "word": "夜中", "kana": "よなか", "meaning": "Midnight, middle of the night" },
+      { "word": "心", "kana": "こころ", "meaning": "Heart" },
+      { "word": "安心する", "kana": "あんしんする", "meaning": "To be relieved" },
+      { "word": "手", "kana": "て", "meaning": "Hand" },
+      { "word": "下手な", "kana": "へたな", "meaning": "Poor at" },
+      { "word": "上手な", "kana": "じょうずな", "meaning": "Good at" },
+      { "word": "足", "kana": "あし", "meaning": "Foot, leg" },
+      { "word": "足りる", "kana": "たりる", "meaning": "To be sufficient" },
+      { "word": "足す", "kana": "たす", "meaning": "To add" },
+      { "word": "体", "kana": "からだ", "meaning": "Body" },
+      { "word": "首", "kana": "くび", "meaning": "Neck" },
+      { "word": "道", "kana": "みち", "meaning": "Road" },
+      { "word": "山", "kana": "やま", "meaning": "Mountain" },
+      { "word": "山道", "kana": "やまみち", "meaning": "Mountain road" },
+      { "word": "山田さん", "kana": "やまださん", "meaning": "Yamada-san, Mr./Ms. Yamada" },
+      { "word": "川", "kana": "かわ", "meaning": "River" },
+      { "word": "小川さん", "kana": "おがわさん", "meaning": "Ogawa-san, Mr./Ms. Ogawa" },
+      { "word": "林", "kana": "はやし", "meaning": "Small forest, grove" },
+      { "word": "森", "kana": "もり", "meaning": "Forest" },
+      { "word": "森田さん", "kana": "もりたさん", "meaning": "Morita-san, Mr./Ms. Morita" },
+      { "word": "空", "kana": "そら", "meaning": "Sky" },
+      { "word": "空気", "kana": "くうき", "meaning": "Air" },
+      { "word": "海", "kana": "うみ", "meaning": "Sea" },
+      { "word": "北海道", "kana": "ほっかいどう", "meaning": "Hokkaido" },
+      { "word": "化学", "kana": "かがく", "meaning": "Chemistry" },
+      { "word": "花", "kana": "はな", "meaning": "Flower" },
+      { "word": "花見", "kana": "はなみ", "meaning": "Flower viewing" },
+      { "word": "天気", "kana": "てんき", "meaning": "Weather" },
+      { "word": "赤/赤い", "kana": "あか/あかい", "meaning": "Red" },
+      { "word": "赤ちゃん", "kana": "あかちゃん", "meaning": "Baby" },
+      { "word": "青/青い", "kana": "あお/あおい", "meaning": "Blue" },
+      { "word": "青空", "kana": "あおぞら", "meaning": "Blue sky" },
+      { "word": "白/白い", "kana": "しろ/しろい", "meaning": "White" },
+      { "word": "黒/黒い", "kana": "くろ/くろい", "meaning": "Black" },
+      { "word": "色", "kana": "いろ", "meaning": "Color" },
+      { "word": "魚", "kana": "さかな", "meaning": "Fish" },
+      { "word": "犬", "kana": "いぬ", "meaning": "Dog" },
+      { "word": "子犬", "kana": "こいぬ", "meaning": "Puppy" },
+      { "word": "料理", "kana": "りょうり", "meaning": "Cooking, dish" },
+      { "word": "ご飯", "kana": "ごはん", "meaning": "Cooked rice, meal" },
+      { "word": "朝ご飯", "kana": "あさごはん", "meaning": "Breakfast" },
+      { "word": "昼ご飯", "kana": "ひるごはん", "meaning": "Lunch" },
+      { "word": "晩ご飯", "kana": "ばんごはん", "meaning": "Dinner" },
+      { "word": "牛", "kana": "うし", "meaning": "Cow, bull" },
+      { "word": "牛肉", "kana": "ぎゅうにく", "meaning": "Beef" },
+      { "word": "豚", "kana": "ぶた", "meaning": "Pig" },
+      { "word": "豚肉", "kana": "ぶたにく", "meaning": "Pork" },
+      { "word": "鳥", "kana": "とり", "meaning": "Bird" },
+      { "word": "小鳥", "kana": "ことり", "meaning": "Little bird" },
+      { "word": "鳥肉", "kana": "とりにく", "meaning": "Chicken" },
+      { "word": "肉", "kana": "にく", "meaning": "Meat" },
+      { "word": "お茶", "kana": "おちゃ", "meaning": "Japanese tea" },
+      { "word": "茶色", "kana": "ちゃいろ", "meaning": "Brown" },
+      { "word": "野菜", "kana": "やさい", "meaning": "Vegetable" },
+      { "word": "長野", "kana": "ながの", "meaning": "Nagano" },
+      { "word": "切る", "kana": "きる", "meaning": "To cut" },
+      { "word": "切手", "kana": "きって", "meaning": "Postage stamp" },
+      { "word": "大切な", "kana": "たいせつな", "meaning": "Precious" },
+      { "word": "作る", "kana": "つくる", "meaning": "To make" },
+      { "word": "手作り", "kana": "てづくり", "meaning": "Handmade" },
+      { "word": "未来", "kana": "みらい", "meaning": "Future" },
+      { "word": "味", "kana": "あじ", "meaning": "Taste" },
+      { "word": "音楽", "kana": "おんがく", "meaning": "Music" },
+      { "word": "音", "kana": "おと", "meaning": "Sound" },
+      { "word": "楽しい", "kana": "たのしい", "meaning": "Enjoyable" },
+      { "word": "楽しみ", "kana": "たのしみ", "meaning": "Fun" },
+      { "word": "歌", "kana": "うた", "meaning": "Song" },
+      { "word": "歌う", "kana": "うたう", "meaning": "To sing" },
+      { "word": "歌手", "kana": "かしゅ", "meaning": "Singer" },
+      { "word": "自分", "kana": "じぶん", "meaning": "Oneself" },
+      { "word": "自転車", "kana": "じてんしゃ", "meaning": "Bicycle" },
+      { "word": "乗る", "kana": "のる", "meaning": "To ride" },
+      { "word": "写真", "kana": "しゃしん", "meaning": "Photograph" },
+      { "word": "写す", "kana": "おつす", "meaning": "To copy" },
+      { "word": "真ん中", "kana": "まんなか", "meaning": "Center" },
+      { "word": "二台", "kana": "にだい", "meaning": "Two (machines)" },
+      { "word": "映画", "kana": "えいが", "meaning": "Movie" },
+      { "word": "羊", "kana": "ひつじ", "meaning": "Sheep" },
+      { "word": "洋服", "kana": "ようふく", "meaning": "Western Clothes" },
+      { "word": "服", "kana": "ふく", "meaning": "Clothes" },
+      { "word": "着る", "kana": "きる", "meaning": "To wear" },
+      { "word": "上着", "kana": "うわぎ", "meaning": "Jacket" },
+      { "word": "下着", "kana": "したぎ", "meaning": "Underwear" },
+      { "word": "着く", "kana": "つく", "meaning": "To arrive" }
+    ]
+  }
+}
