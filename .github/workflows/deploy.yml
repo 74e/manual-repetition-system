@@ -27,7 +27,7 @@ jobs:
     - run: npm ci
     - run: npm run build
       env:
-        VITE_BASE: ${{ github.event.repository.name }}  # For Vite
+        VITE_BASE: /${{ github.event.repository.name }}/ # For Vite
 
   deploy:
     environment:
