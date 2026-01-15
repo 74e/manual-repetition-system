@@ -19,6 +19,7 @@ const props = defineProps({
 const romajiInput = ref("");
 const romajiInputEl = useTemplateRef("romajiInputEl");
 const flashcardStore = useFlashcardStore();
+const showStrokeOrder = ref(false);
 
 const { getNextFlashcard } = flashcardStore;
 
@@ -61,8 +62,33 @@ const displayTitle = computed(() => {
   }
 });
 
+function toggleShowStrokeOrder() {
+  showStrokeOrder.value = !showStrokeOrder.value;
+}
+
+function handleShift(e) {
+  if (e.key !== "Shift") return;
+
+  if (e.type === "keydown") {
+    if (e.repeat) return;
+    showStrokeOrder.value = true;
+  }
+
+  if (e.type === "keyup") {
+    showStrokeOrder.value = false;
+  }
+}
+
 onMounted(() => {
+  window.addEventListener("keydown", handleShift);
+  window.addEventListener("keyup", handleShift);
+
   if (flashcardStore.reviewMethod == "write") romajiInputEl.value.focus();
+});
+
+onUnmounted(() => {
+  window.removeEventListener("keydown", handleShift);
+  window.removeEventListener("keyup", handleShift);
 });
 </script>
 
@@ -71,14 +97,21 @@ onMounted(() => {
     <div v-if="!cardFlipped" class="flashcard-side">
       <div :class="['frame-container', uiFeedback]">
         <div class="label">{{ displayTitle }}</div>
-        <div class="character">{{ displayReviewKana }}</div>
+        <div :class="['character', showStrokeOrder && 'stroke-order']" @click="toggleShowStrokeOrder">
+          <span class="centering-char"> {{ displayReviewKana }}</span>
+        </div>
       </div>
     </div>
 
     <div v-else class="flashcard-side answer-side">
       <div :class="['frame-container', uiFeedback]">
         <div class="label">{{ displayTitle }}</div>
-        <div class="character">{{ displayReviewAnswer }}</div>
+        <div
+          :class="['character', showStrokeOrder && 'stroke-order', flashcardStore.recognitionType == 'romaji' && 'normal-size']"
+          @click="toggleShowStrokeOrder"
+        >
+          <span class="centering-char">{{ displayReviewAnswer }}</span>
+        </div>
       </div>
     </div>
   </template>
@@ -86,7 +119,9 @@ onMounted(() => {
   <template v-else>
     <div class="flashcard-side">
       <div :class="['frame-container', uiFeedback]">
-        <div class="character">{{ displayReviewKana }}</div>
+        <div :class="['character', showStrokeOrder && 'stroke-order']" @click="toggleShowStrokeOrder">
+          <span class="centering-char">{{ displayReviewKana }}</span>
+        </div>
       </div>
 
       <input
@@ -179,8 +214,23 @@ onMounted(() => {
     }
 
     .character {
+      position: relative;
       padding: 34px;
-      font-size: 68px;
+      font-size: 100px;
+      height: 200px;
+
+      &.normal-size {
+        .centering-char {
+          font-size: 68px !important;
+        }
+      }
+
+      .centering-char {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
     }
   }
 
@@ -206,6 +256,11 @@ onMounted(() => {
       border-color: var(--vue-red);
     }
   }
+}
+
+.stroke-order {
+  font-family: "KanjiStrokeOrders";
+  font-size: 180px !important;
 }
 
 .v-enter-active,

@@ -36,6 +36,11 @@ const flashcardStore = useFlashcardStore();
           <div class="key"><span>Enter</span></div>
         </div>
       </template>
+
+      <div class="shortcut-item">
+        <span class="tooltip">Hold for stroke order</span>
+        <div class="key"><span>Shift</span></div>
+      </div>
     </div>
   </div>
 </template>

@@ -1,4 +1,6 @@
 <script setup>
+import { onMounted, onUnmounted, ref } from "vue";
+
 defineProps({
   currentFlashcard: {
     require: true,
@@ -11,6 +13,35 @@ defineProps({
     type: String,
     require: true,
   },
+});
+
+const showStrokeOrder = ref(false);
+
+function toggleShowStrokeOrder() {
+  showStrokeOrder.value = !showStrokeOrder.value;
+}
+
+function handleShift(e) {
+  if (e.key !== "Shift") return;
+
+  if (e.type === "keydown") {
+    if (e.repeat) return;
+    showStrokeOrder.value = true;
+  }
+
+  if (e.type === "keyup") {
+    showStrokeOrder.value = false;
+  }
+}
+
+onMounted(() => {
+  window.addEventListener("keydown", handleShift);
+  window.addEventListener("keyup", handleShift);
+});
+
+onUnmounted(() => {
+  window.removeEventListener("keydown", handleShift);
+  window.removeEventListener("keyup", handleShift);
 });
 </script>
 
@@ -32,8 +63,8 @@ defineProps({
     </div>
   </div>
 
-  <div v-else :class="['flashcard-side kanji-side', uiFeedback]">
-    <span>{{ currentFlashcard.kanji }}</span>
+  <div v-else :class="['flashcard-side kanji-side', uiFeedback]" @click="toggleShowStrokeOrder">
+    <span :class="showStrokeOrder && 'stroke-order'">{{ currentFlashcard.kanji }}</span>
   </div>
 </template>
 
@@ -107,5 +138,9 @@ defineProps({
       text-transform: capitalize;
     }
   }
+}
+
+.stroke-order {
+  font-family: "KanjiStrokeOrders" !important;
 }
 </style>
