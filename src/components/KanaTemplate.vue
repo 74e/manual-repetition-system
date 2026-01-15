@@ -222,6 +222,7 @@ onUnmounted(() => {
       &.normal-size {
         .centering-char {
           font-size: 68px !important;
+          font-family: Archivo !important;
         }
       }
 
