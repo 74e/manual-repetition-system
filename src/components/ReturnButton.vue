@@ -10,9 +10,10 @@ import ButtonComponent from "./ButtonComponent.vue";
 
 <style scoped>
 .return-button-link {
-  position: absolute;
+  position: fixed;
   top: 16px;
-  left: 0;
+  left: -2px;
+  z-index: 100;
 
   .return-button {
     font-size: 18px;
@@ -24,10 +25,21 @@ import ButtonComponent from "./ButtonComponent.vue";
   }
 }
 
+@media (max-width: 1300px) {
+  .return-button-link {
+    opacity: 0.5;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
 @media (min-width: 1960px) {
   .return-button-link {
     top: 16px;
-    left: 0;
+    left: calc(50% - 960px);
+
     .return-button {
       border: 1px solid var(--vue-green-45);
       border-radius: 9px;
